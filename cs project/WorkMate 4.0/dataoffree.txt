@@ -1,0 +1,4 @@
+samuel|12345678
+kidus|12345678
+samuel1|234432234
+kirubel|12345678

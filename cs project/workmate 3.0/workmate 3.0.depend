@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1677875672 source:c:\users\82103\desktop\cs project\workmate 3.0\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstring>
+	<stdlib.h>
+	<vector>
+	<iomanip>
+	<stdio.h>
+	<time.h>
+

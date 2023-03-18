@@ -1,0 +1,3 @@
+samuel|12345678
+kidus|12345690
+kidus23|kidus2003

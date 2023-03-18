@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Nissan GT-R Dealership - Inventory</title>
+ <style>
+  body {
+   background-color: #f6f3f3;
+   font-family: Arial, sans-serif;
+  }
+  header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+  }
+  
+  nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+  }
+  
+  nav li {
+   margin-right: 20px;
+  }
+  
+  nav li a {
+   color: #fff;
+   text-decoration: none;
+   font-weight: bold;
+   transition: color 0.7s;
+  }
+  
+  nav li.active a {
+   color: #f00;
+  }
+  
+  nav li a:hover {
+   color: #f00;
+  }
+  
+  .container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 20px;
+  }
+  
+  .part {
+   background-color: #f7f7f7;
+   padding: 20px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  }
+  
+  .part img {
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 20px;
+  }
+  
+  .part h2 {
+   font-size: 24px;
+   margin: 0;
+   margin-bottom: 10px;
+  }
+  
+  .part p {
+   margin: 0;
+   margin-bottom: 20px;
+  }
+  
+  .part button {
+   background-color: #d32a2a;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   font-size: 18px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   align-self: flex-end;
+  }
+  
+  .part button:hover {
+   background-color: #fff;
+   color: #000;
+  }
+ </style>
+</head>
+<body>
+ <header>
+  
+    <nav>
+     <ul>
+      <li><a href="welcoming.html">Home</a></li>
+      <li><a href="home.html">Cars</a></li>
+      <li class="active"><a href="inventory.html">Inventory</a></li>
+      <li ><a href="about us.html">About Us</a></li>
+      <li><a href="contact us.html">Contact Us</a></li>
+  
+     </ul>
+    </nav>
+   </header>
+ 
+ 
+ 
+ <main>
+  <div class="container">
+    <div class="part">
+     <img src="engine.jpg" alt="engine">
+     <h2>Engine Assembly</h2>
+     <p>Price: $8,000</p>
+     <p>Model Year: 2009-2021</p>
+     <button>Order now</button>
+    </div>
+    <div class="part">
+      <img src="Break.jpg" alt="breakes">
+      <h2>Break Kit</h2>
+      <p>Price: $3,500</p>
+      <p>Model Year: 2009-2021</p>
+     <button>Order now</button>
+     </div>
+     
+     <div class="part">
+      <img src="sus.jpg" alt="Suspension">
+      <h2>Suspention Kit</h2>
+      <p>Price: $2,500</p>
+      <p>Model Year: 2009-2021</p>
+     <button>Order now</button>
+     </div>
+     
+     <div class="part">
+      <img src="exhaust.jpg" alt="Exhaust">
+      <h2>Exhaust system</h2>
+      <p>Price: $1,800</p>
+      <p>Model Year: 2009-2021</p>
+     <button>Order now</button>
+     </div>
+     
+     <div class="part">
+      <img src="wheel.jpg" alt="Wheel">
+      <h2>Wheel Set</h2>
+      <p>Price: $4,000</p>
+      <p>Model Year: 2009-2021</p>
+     <button>Order now</button>
+     </div>
+     
+     <div class="part">
+      <img src="air.jpg" alt="Intake">
+      <h2>Cold Air Intake</h2>
+      <p>Price: $600</p>
+      <p>Model Year: 2009-2021</p>
+     <button>Order now</button>
+     </div>
+    </div>
+</main>
+
+<footer>
+ <p>&copy; 2023 Nissan Dealership. All rights reserved.</p>
+</footer>
+</body>
+</html>

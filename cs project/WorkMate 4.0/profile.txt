@@ -1,0 +1,3 @@
+samuel|web development|web design|30
+kidus|logo|logo design|45
+kirubel|music production|pop music producer|70

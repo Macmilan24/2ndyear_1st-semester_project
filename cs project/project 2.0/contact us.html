@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Nissan GT-R Dealership</title>
+ <style>
+  body {
+   background-color: #f8f8f8;
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+  }
+  
+  header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+  }
+  
+  nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+  }
+  
+  nav li {
+   margin-right: 20px;
+  }
+  
+  nav li a {
+   color: #fff;
+   text-decoration: none;
+   font-weight: bold;
+   transition: color 0.7s;
+  }
+  
+  nav li.active a {
+   color: #f00;
+  }
+  
+  nav li a:hover {
+   color: #f00;
+  }
+
+  .form-group {
+   margin-bottom: 20px;
+  }
+
+  .form-label {
+   display: block;
+   font-size: 14px;
+   font-weight: bold;
+   margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+   font-size: 16px;
+   padding: 10px;
+   width: 100%;
+  }
+
+  textarea {
+   height: 200px;
+  }
+
+  button[type="submit"] {
+   background-color: #333;
+   border: none;
+   border-radius: 5px;
+   color: #fff;
+   cursor: pointer;
+   font-size: 16px;
+   padding: 10px 20px;
+   text-transform: uppercase;
+  }
+
+  button[type="submit"]:hover {
+   background-color: #444;
+  }
+ </style>
+</head>
+<body>
+    <header>
+        <nav>
+         <ul>
+            <li><a href="welcoming.html">Home</a></li>
+          <li><a href="home.html">Cars</a></li>
+          <li><a href="inventory.html">Inventory</a></li>
+          <li ><a href="about us.html">About Us</a></li>
+          <li class="active"><a href="contact us.html">Contact Us</a></li>
+      
+         </ul>
+        </nav>
+       </header>
+ 
+ <div class="container">
+  <h2>Contact Us</h2>
+  
+  <p>If you have any questions or comments, please feel free to get in touch with us using the form below. We'll get back to you as soon as possible.</p>
+
+  <form>
+   <div class="form-group">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" id="name" name="name" required>
+   </div>
+
+   <div class="form-group">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" id="email" name="email" required>
+   </div>
+
+   <div class="form-group">
+    <label for="message" class="form-label">Message</label>
+    <textarea id="message" name="message" required></textarea>
+   </div>
+
+   <button type="submit">Send Message</button>
+  </form>
+ </div>
+ <footer>
+ <p>&copy; 2023 Nissan Dealership. All rights reserved.</p>
+ </footer>
+</body>
+</html>
