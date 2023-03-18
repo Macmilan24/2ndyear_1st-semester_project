@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1675194387 source:c:\users\82103\desktop\c++ programming\cs assignment\leul\main.cpp
+	<iostream>
+	<string>
+	<vector>
+
